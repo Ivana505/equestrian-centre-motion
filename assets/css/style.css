@@ -1,9 +1,53 @@
 @import url('https://fonts.googleapis.com/css2?family=Montserrat&family=Nobile:ital,wght@1,500&display=swap');
 
+* {
+    margin: 0;
+    padding: 0;
+    border: none;
+    }
+
 body {
-    font-family: 'Nobile', sans-serif;
+    font-family: 'Nobile', 'Verdana', sans-serif;
+
 }
 
-p {
-    font-family: 'Montserrat', sans-serif;
+p, h2, h3 {
+    font-family: 'Montserrat', 'Verdana', sans-serif;
+    clear: both;
+    margin-left: 20px;
+  
 }
+
+#welcome {
+    color: #E07447;
+    float: left;
+    margin-left: 500px;
+    margin-top: 70px;
+    
+}
+
+#navigation ul {
+    float: right;
+}
+
+#navigation li {
+    list-style-type: none;
+    float: left;
+    margin-left: 90px;
+    
+}
+
+
+
+a:link {
+    text-decoration: none;
+}
+
+
+#main-photo {
+    height: 1000px;
+    background: url('../images/main-photo.jpg') no-repeat;
+   
+}
+
+ 
