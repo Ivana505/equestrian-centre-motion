@@ -47,11 +47,6 @@ p, h2, h3 {
    padding: 15px;
    margin-left: 70%;
    margin-top: 30px;
-
-   
- 
-    
-
     
 }
 
@@ -98,15 +93,20 @@ padding-bottom: 15px;
         margin-right: 5%;
         }
 
-#instructors > img {
-    float: left;
-   clear: both;
-   width: 35%;
 
+
+#instructors > img {
+   float: left;
+   width: 33%;
+   margin-right: 10px;
 }
 
-#gallery> img {
+#gallery > img {
     float: left;
-    width: 35%;
+    width: 33%;
+    margin-left: 10px;
+}
 
+footer {
+    height: 150px;
 }
