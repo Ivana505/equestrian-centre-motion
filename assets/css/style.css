@@ -4,21 +4,17 @@
     margin: 0;
     padding: 0;
     border: none;
-    }
+}
 
 body {
     font-family: 'Nobile', 'Verdana', sans-serif;
     background-color:lightpink;
-
 }
-
-
 
 p, h2, h3 {
     font-family: 'Montserrat', 'Verdana', sans-serif;
     clear: both;
     margin-left: 20px;
-  
 }
 
 #welcome {
@@ -27,16 +23,12 @@ p, h2, h3 {
     clear: both;
     font-size: 1.5em;
     margin-right: 40px;
-    margin-top: 25px;
-    
+    margin-top: 25px;  
 }
 
 #navigation ul {
     float: right;
     clear: both;
-
-   
-  
 }
 
 #navigation li {
@@ -47,10 +39,12 @@ p, h2, h3 {
    padding: 15px;
    margin-left: 70%;
    margin-top: 30px;
-    
 }
 
-
+i {
+    padding-right: 15px;
+    color: white;
+}
 
 a:link {
     text-decoration: none;
