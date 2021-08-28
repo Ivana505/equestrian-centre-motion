@@ -8,8 +8,11 @@
 
 body {
     font-family: 'Nobile', 'Verdana', sans-serif;
+    background-color:lightpink;
 
 }
+
+
 
 p, h2, h3 {
     font-family: 'Montserrat', 'Verdana', sans-serif;
@@ -19,21 +22,36 @@ p, h2, h3 {
 }
 
 #welcome {
-    color: #E07447;
-    float: left;
-    margin-left: 500px;
-    margin-top: 70px;
+    color: white;
+    float: right;
+    clear: both;
+    font-size: 1.5em;
+    margin-right: 40px;
+    margin-top: 25px;
     
 }
 
 #navigation ul {
     float: right;
+    clear: both;
+
+   
+  
 }
 
 #navigation li {
     list-style-type: none;
     float: left;
-    margin-left: 90px;
+    font-size: 1.8em;
+    font-weight: 700;
+   padding: 15px;
+   margin-left: 70%;
+   margin-top: 30px;
+
+   
+ 
+    
+
     
 }
 
@@ -43,11 +61,52 @@ a:link {
     text-decoration: none;
 }
 
-
-#main-photo {
-    height: 1000px;
-    background: url('../images/main-photo.jpg') no-repeat;
-   
+a:visited {
+    color: white;
 }
 
+#hero-image {
+    height: 550px;
+    background: url('../images/hero-image.jpg') no-repeat left;
+    background-size: 50% 100%;
+    background-color:#BEABA6ff;
+
+}
+
+#about-us {
+text-align: center;
+font-weight: 700;
+font-size: 1em;
+padding-top: 15px;
+padding-bottom: 15px;
+}
  
+#instructors {
+    font-weight: 700;
+    font-size: 1em;
+    padding-top: 20px;
+    padding-bottom: 15px;
+    margin-left: 5%;
+
+    }
+
+    #gallery{
+        font-weight: 700;
+        font-size: 1em;
+        padding-top: 20px;
+        padding-bottom: 15px;
+        margin-right: 5%;
+        }
+
+#instructors > img {
+    float: left;
+   clear: both;
+   width: 35%;
+
+}
+
+#gallery> img {
+    float: left;
+    width: 35%;
+
+}
