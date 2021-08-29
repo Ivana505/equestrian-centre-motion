@@ -131,3 +131,13 @@ table, td, th{
 #opening-hours {
     float: left;
 }
+
+#photos {
+ clear: both;
+  
+}
+
+#photos > img {
+    width: 400px;
+    height: auto;
+}
