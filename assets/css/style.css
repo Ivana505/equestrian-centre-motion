@@ -69,6 +69,8 @@ font-weight: 700;
 font-size: 1em;
 padding-top: 15px;
 padding-bottom: 15px;
+width: 50%;
+margin-left: 25%;
 }
  
 #instructors {
@@ -77,6 +79,7 @@ padding-bottom: 15px;
     font-size: 1em;
     padding-top: 20px;
     padding-bottom: 15px;
+   
     
 
     }
@@ -120,8 +123,8 @@ footer {
 
 }
 
-table, th, td{
-    width: 30%;
+table, td, th{
+    width: 100%;
     border: 1px solid black;
 }
 
