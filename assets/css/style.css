@@ -8,7 +8,7 @@
 
 body {
     font-family: 'Nobile', 'Verdana', sans-serif;
-    background-color:lightpink;
+    background-color: lightgrey;
 }
 
 p, h2, h3 {
@@ -58,7 +58,8 @@ a:visited {
     height: 550px;
     background: url('../images/hero-image.jpg') no-repeat left;
     background-size: 50% 100%;
-    background-color:#BEABA6ff;
+    background-color: grey;
+    border-radius: 10%;
 
 }
 
@@ -71,36 +72,59 @@ padding-bottom: 15px;
 }
  
 #instructors {
+    text-align: center;
     font-weight: 700;
     font-size: 1em;
     padding-top: 20px;
     padding-bottom: 15px;
-    margin-left: 5%;
+    
 
     }
 
     #gallery{
+        text-align: center;
         font-weight: 700;
         font-size: 1em;
         padding-top: 20px;
         padding-bottom: 15px;
-        margin-right: 5%;
+        
         }
 
 
 
 #instructors > img {
-   float: left;
    width: 33%;
-   margin-right: 10px;
+   margin: auto;
+   
 }
 
 #gallery > img {
-    float: left;
     width: 33%;
-    margin-left: 10px;
+    margin: auto;
 }
 
 footer {
     height: 150px;
+    background-color: grey;
+}
+
+.social-media {
+    text-align: center;
+    list-style: none;
+    font-size: 200%;
+    color:white;
+}
+.social-media > li {
+    display: inline;
+   padding: 5%;
+
+}
+
+table, th, td{
+    width: 30%;
+    border: 1px solid black;
+}
+
+#opening-hours {
+    float: left;
 }
