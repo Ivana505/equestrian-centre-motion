@@ -79,7 +79,6 @@ padding: 15px 0px 15px;
 width: 50%;
 margin-left: 25%;
 color: black;
-
 }
 /**
 #instructors > h2 {
@@ -99,7 +98,8 @@ color: black;
 #instructors > img {
         width: 33%;
         float: left;
-        margin: 0 10% 0% 10%;
+        margin: 0 10% 0 10%;
+    
        
     }
 
@@ -115,17 +115,34 @@ color: black;
 
 #gallery > img {
     width: 33%;
-    float:left;
-   
-   
-   
+    float: left;
+
 }
 
+
+.position-left {
+  margin-left: 10%;
+
+}
+
+.position-right {
+    margin-left: 53%;
+
+  }
+
+#slike {
+    width: 100%;
+}
 
 footer {
-    height: 150px;
+    height: 300px;
+    width: 100%;
     background-color: grey;
-}
+    overflow: hidden;
+    position: relative;
+    clear: both;
+ }
+
 
 .social-media {
     text-align: center;
@@ -139,15 +156,28 @@ footer {
 
 }
 
-table, td, th{
-    width: 100%;
-    border: 1px solid black;
-}
-
-#opening-hours {
-    float: left;
+ table, td, th{
+   
+    border: 3px solid black;
+    vertical-align: center;
+    text-align: center;
+    border-spacing: 8px;
+    padding: 5px;
+    border-color: white;
     clear: both;
-}
+    width: 80% nowrap;
+    margin-left: auto;
+    margin-right: auto;
+    font-size: 1.15em;
+ }
+
+ caption {
+    font-size: 1.15em;
+    background-color: white;
+ }
+
+
+
 
 #photos {
  clear: both;
@@ -170,4 +200,6 @@ table, td, th{
 
 }
 
-
+#copyright {
+    text-align: center;
+}
