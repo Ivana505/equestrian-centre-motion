@@ -1,11 +1,13 @@
 @import url('https://fonts.googleapis.com/css2?family=Montserrat&family=Nobile:ital,wght@1,500&display=swap');
 
+/**select all elements to 0 and border to none**/
 * {
     margin: 0;
     padding: 0;
     border: none;
 }
 
+/**body style**/
 body {
     font-family: 'Nobile', 'Verdana', sans-serif;
     background-color: lightsteelblue;
@@ -17,6 +19,7 @@ p, h2, h3 {
     margin-left: 20px;
 }
 
+/**style for the main heading**/
 #welcome {
     color: white;
     font-size: 1.5em;  
@@ -39,38 +42,42 @@ p, h2, h3 {
     margin: 30px 0 0 85%;
 }
 
+/**font awesome styling for social media icons**/
 i {
     padding-right: 15px;
     color: white;
 }
 
  /**link style**/
- a:link {
+a:link {
     color: white;
     text-decoration: none;
-  }
+}
   
-  a:visited {
+a:visited {
     color: white;
     text-decoration: none;
-  }
+}
   
-  a:hover {
+a:hover {
     color: white;
     text-decoration: underline;
-  }
+}
   
-  a:active {
+a:active {
     color: white;
     text-decoration: none;
-  } 
+} 
 
+/**hero-image styling**/
 #hero-image {
     height: 500px;
     background: url('../images/dressage2.jpg') no-repeat center;
     background-size: cover;
 }
 
+
+/**about us styling**/
 #about-us {
 text-align: center;
 font-weight: 700;
@@ -80,6 +87,7 @@ width: 50%;
 margin-left: 25%;
 color: black;
 }
+
 /**
 #instructors > h2 {
     font-weight: 700;
@@ -90,18 +98,14 @@ color: black;
 #instructors > p {
     font-weight: 700;
     font-size: 1.25em;
-    margin: 0 0 0 0;
- 
-    
+    margin: 0 0 0 0; 
 }**/
 
 #instructors > img {
         width: 33%;
         float: left;
         margin: 0 10% 0 10%;
-    
-       
-    }
+}
 
     /**
     #gallery{
@@ -110,25 +114,21 @@ color: black;
         font-size: 1em;
         padding-top: 20px;
         padding-bottom: 15px;
-        
-        }**/
+    }**/
 
 #gallery > img {
-    width: 33%;
-    float: left;
-    padding: 10px;
+        width: 33%;
+        float: left;
+        padding: 10px;
 }
-
 
 .position-left {
   margin-left: 10%;
-
 }
 
 .position-right {
     margin-left: 53%;
-
-  }
+}
 
 #slike {
     width: 100%;
@@ -140,10 +140,10 @@ footer {
     background-color: grey;
     overflow: hidden;
     position: relative;
-    clear: both;
+    clear: both; 
  }
 
-
+ /**social media icons styling**/
 .social-media {
     text-align: center;
     list-style: none;
@@ -153,11 +153,9 @@ footer {
 .social-media > li {
     display: inline;
    padding: 5%;
-
 }
 
  table, td, th{
-   
     border: 3px solid black;
     vertical-align: center;
     text-align: center;
@@ -169,12 +167,12 @@ footer {
     margin-left: auto;
     margin-right: auto;
     font-size: 1.15em;
- }
+}
 
- caption {
+caption {
     font-size: 1.15em;
     background-color: white;
- }
+}
 
      /** #gallery {
         width: 100%;
@@ -188,17 +186,51 @@ footer {
        padding: 15px;
    }**/
 
-
-
 #container {
   display: block;
   text-align: center;
   border: 1px solid black;
   margin-top: 10px;
   margin-bottom: 10px;
-
 }
 
 #copyright {
     text-align: center;
+}
+
+
+/**responsivness for the main page media query 
+for screens max-width 1200px and lower**/
+@media screen and (max-width:1200px) {
+   
+    #welcome {
+    font-size: 70%;  
+}
+
+#navigation li {
+    font-size: 75%;
+    
+}
+
+#about-us {
+    font-size: 75%;
+    }
+
+table, td, th{
+    font-size: 75%;
+    }
+    
+caption {
+    font-size: 75%;
+     
+}
+
+#slike {
+    font-size: 75%;
+}
+
+footer > h3, p {
+    font-size: 60%;
+}
+
 }
