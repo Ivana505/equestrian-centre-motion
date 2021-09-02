@@ -10,7 +10,7 @@
 /**body style**/
 body {
     font-family: 'Nobile', 'Verdana', sans-serif;
-    background-color: lightsteelblue;
+    background-color:#d4b974;
 }
 
 p, h2, h3 {
@@ -21,8 +21,8 @@ p, h2, h3 {
 
 /**style for the main heading**/
 #welcome {
-    color: white;
-    font-size: 1.5em;  
+    color: black;
+    font-size: 1.8em;  
     text-align: center;
     padding: 10px 0px 10px;
 }
@@ -31,48 +31,54 @@ p, h2, h3 {
 #navigation ul {
     float: right;
     clear: both;
+  
 }
 
 #navigation li {
     list-style-type: none;
     float: left;
-    font-size: 1.8em;
+    font-size: 1.5em;
     font-weight: 700;
     padding: 15px;
     margin: 30px 0 0 85%;
+   background-color: #d4b974;
+   border-radius: 50%;
+    
+  
 }
 
 /**font awesome styling for social media icons**/
 i {
     padding-right: 15px;
-    color: white;
+    color: black;
 }
 
  /**link style**/
 a:link {
-    color: white;
+    color: black;
     text-decoration: none;
 }
   
 a:visited {
-    color: white;
+    color: black;
     text-decoration: none;
 }
   
 a:hover {
-    color: white;
+    color: black;
     text-decoration: underline;
 }
   
 a:active {
-    color: white;
+    color: black;
     text-decoration: none;
 } 
 
 /**hero-image styling**/
 #hero-image {
     height: 500px;
-    background: url('../images/dressage2.jpg') no-repeat center;
+    width: 100%;
+    background: url('../images/unsplash.jpg') no-repeat center center;
     background-size: cover;
 }
 
@@ -85,7 +91,7 @@ font-size: 1.25em;
 padding: 15px 0px 15px;
 width: 50%;
 margin-left: 25%;
-color: black;
+
 }
 
 /**
@@ -137,7 +143,7 @@ color: black;
 footer {
     height: 300px;
     width: 100%;
-    background-color: grey;
+    background-color: #aa9374;
     overflow: hidden;
     position: relative;
     clear: both; 
@@ -161,7 +167,7 @@ footer {
     text-align: center;
     border-spacing: 8px;
     padding: 5px;
-    border-color: white;
+    border-color: black;
     clear: both;
     width: 85% nowrap;
     margin-left: auto;
@@ -171,7 +177,7 @@ footer {
 
 caption {
     font-size: 1.15em;
-    background-color: white;
+    
 }
 
      /** #gallery {
