@@ -106,8 +106,15 @@ span {
     background-color: pink;
 }
 
+#gallery img {
+    width: 20%;
+    padding: 10px;
+}
 
-
+#gallery {
+    background-color: black;
+    text-align: center;
+}
 
 
 footer {
