@@ -43,8 +43,6 @@ p, h2, h3 {
     margin: 30px 0 0 85%;
    background-color: #d4b974;
    border-radius: 50%;
-    
-  
 }
 
 /**font awesome styling for social media icons**/
@@ -82,7 +80,6 @@ a:active {
     background-size: cover;
 }
 
-
 /**about us styling**/
 #about-us {
 text-align: center;
@@ -91,54 +88,27 @@ font-size: 1.25em;
 padding: 15px 0px 15px;
 width: 50%;
 margin-left: 25%;
-
 }
 
-/**
-#instructors > h2 {
-    font-weight: 700;
-    font-size: 1.25em;
-    margin: 7% 0 0 10%;
+.category {
+    width: 33%;
+    float: left;
+    padding: 100px;
+    margin-left: 5%;
 }
 
-#instructors > p {
-    font-weight: 700;
-    font-size: 1.25em;
-    margin: 0 0 0 0; 
-}**/
-
-#instructors > img {
-        width: 33%;
-        float: left;
-        margin: 0 10% 0 10%;
-}
-
-    /**
-    #gallery{
-        text-align: center;
-        font-weight: 700;
-        font-size: 1em;
-        padding-top: 20px;
-        padding-bottom: 15px;
-    }**/
-
-#gallery > img {
-        width: 33%;
-        float: left;
-        padding: 10px;
-}
-
-.position-left {
-  margin-left: 10%;
-}
-
-.position-right {
-    margin-left: 53%;
-}
-
-#slike {
+.category > img  {
     width: 100%;
 }
+
+span {
+    font-weight: bold;
+    background-color: pink;
+}
+
+
+
+
 
 footer {
     height: 300px;
@@ -180,17 +150,9 @@ caption {
     
 }
 
-     /** #gallery {
-        width: 100%;
-        clear: both;
-        text-align:center;
-      }
-   
-    #gallery > img {
-        width: 33%;
-        height: auto;
-       padding: 15px;
-   }**/
+#video {
+    text-align: center;
+}
 
 #container {
   display: block;
