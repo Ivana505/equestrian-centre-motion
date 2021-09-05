@@ -93,8 +93,8 @@ margin-left: 25%;
 .category {
     width: 33%;
     float: left;
-    padding: 100px;
-    margin-left: 5%;
+    padding: 3%;
+    margin-left: 7%;
 }
 
 .category > img  {
@@ -108,14 +108,13 @@ span {
 
 #gallery img {
     width: 20%;
-    padding: 10px;
+   padding: 5px;
 }
 
 #gallery {
     background-color: black;
     text-align: center;
 }
-
 
 footer {
     height: 300px;
@@ -172,7 +171,6 @@ caption {
 #copyright {
     text-align: center;
 }
-
 
 /**responsivness for the main page media query 
 for screens max-width 1200px and lower**/
