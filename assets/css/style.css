@@ -160,17 +160,38 @@ caption {
     text-align: center;
 }
 
-#container {
-  display: block;
-  text-align: center;
-  border: 1px solid black;
-  margin-top: 10px;
-  margin-bottom: 10px;
-}
 
 #copyright {
     text-align: center;
 }
+
+
+
+#container {
+    background-color: #aa9374;
+    width: 50%;
+    margin: 0 auto;
+    text-align: center;
+    border: 1px solid black;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    color: black;
+}
+
+input[type=text], input[type=email], input[type=tel] {
+    width: 50%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    box-sizing: border-box;
+    border-color: black;
+  }
+
+  textarea {
+      width: 50%;
+      height: 300px;
+  }
+
+  
 
 /**responsivness for the main page media query 
 for screens max-width 1200px and lower**/
