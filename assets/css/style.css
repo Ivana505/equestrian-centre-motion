@@ -19,6 +19,11 @@ p, h2, h3 {
     margin-left: 20px;
 }
 
+p {
+    font-size: 1.15em;
+}
+
+
 /**style for the main heading**/
 #welcome {
     color: black;
@@ -37,12 +42,13 @@ p, h2, h3 {
 #navigation li {
     list-style-type: none;
     float: left;
-    font-size: 1.5em;
+    font-size: 1.7em;
     font-weight: 700;
     padding: 15px;
-    margin: 30px 0 0 85%;
+    margin: 40px 0 0 85%;
    background-color: #d4b974;
-   border-radius: 50%;
+   border-radius: 0%;
+   border: 2px solid black;
 }
 
 /**font awesome styling for social media icons**/
@@ -95,6 +101,7 @@ margin-left: 25%;
     float: left;
     padding: 3%;
     margin-left: 7%;
+    font-size: 1.10em;
 }
 
 .category > img  {
@@ -103,7 +110,6 @@ margin-left: 25%;
 
 span {
     font-weight: bold;
-    background-color: pink;
 }
 
 #gallery img {
@@ -152,7 +158,7 @@ footer {
 }
 
 caption {
-    font-size: 1.15em;
+    font-size: 1.25em;
     
 }
 
@@ -178,7 +184,7 @@ caption {
     color: black;
 }
 
-input[type=text], input[type=email], input[type=tel] {
+input[type=text], input[type=email], input[type=tel], input[type=submit] {
     width: 50%;
     padding: 12px 20px;
     margin: 8px 0;
@@ -186,12 +192,11 @@ input[type=text], input[type=email], input[type=tel] {
     border-color: black;
   }
 
+
   textarea {
       width: 50%;
       height: 300px;
   }
-
-  
 
 /**responsivness for the main page media query 
 for screens max-width 1200px and lower**/
