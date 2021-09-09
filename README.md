@@ -26,13 +26,41 @@ Users can find all the information on this Website about the equestrian centre: 
 ![image](readme/capture-contact-us-form.PNG)
 
 ## Testings
+
 ### Bugs
-#### Solved/Unsolved Bugs / Unfixed bugs
+#### Solved
+
+Unsolved Bugs / Unfixed bugs
+
+# Languages used
+- [HTML5](https://en.wikipedia.org/wiki/HTML5)
+- [CSS3](https://en.wikipedia.org/wiki/CSS)
+
 ### Validator testing
+- I have tested HTML5 code on - [HTML5](https://validator.w3.org/) 
+- I have tested CSS3 code on  - [HTML5](https://jigsaw.w3.org/css-validator/#validate_by_uri) 
 
+- Accessibility 
+      - I have confirmed that...
 ## Deployment
+- The site was deployed to Github pages using following steps: 
+   - Login to Github and go into repository Ivana505/equestrian-centre-motion
+   - Click on settings and scroll down to Pages section on the page
+   - Under the source heading select the master branch option and click save
+   - The project has now been deployed and wait for approximate 10 minutes for the link to become active
+   - Refresh the page and click on the link to view the live site
 
+  
 ## Credits
+
+- Image source:
+  - [Pexels](https://www.pexels.com/)
+      - Image by Alexander Dummer https://www.pexels.com/photo/girl-riding-black-horse-1364073/
+      - 
+
+- [Game Souds](https://gamesounds.xyz/) for the game sounds.
+-
+
 
 ### Content
 ### Media
