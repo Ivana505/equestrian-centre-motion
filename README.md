@@ -1,7 +1,7 @@
 # Equestrian Centre Motion
 The Equestrian Centre Motion is a website for equestrian lovers located in Austria and in the EU. 
 Users can find all the information on this Website about the equestrian centre: About the centre, working hours, contact Information and contact us form.
-![alt text](readme/capture-landing-page.PNG)
+![image](readme/capture-landing-page.PNG)
 
 
 ## Features
@@ -10,11 +10,11 @@ Users can find all the information on this Website about the equestrian centre: 
     - Navigation links are to the right: Home, Instructors, Gallery and Contact us which link to the new site which opens on the same page.
     - Greeting and navigation are in colors that complement each other and give contrast and are clear and visible.
     - Navigation is clear and makes all sections easy to find.
-    ![alt text](readme/feature-navigation.png)
+    ![image](readme/feature-navigation.png)
 
 - The header
      - Hero image has a good resolution, it is clear for the user that this is horseback riding club.
-     ![alt text](readme/capture-hero-image.png)
+     ![image](readme/capture-hero-image.png)
 
 - The About us section
      -
