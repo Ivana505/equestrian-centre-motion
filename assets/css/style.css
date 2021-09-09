@@ -199,12 +199,28 @@ input[type=text], input[type=email], input[type=tel], input[type=submit] {
       height: 300px;
   }
 
+
 /**responsivness for the main page media query 
-for screens max-width 1200px and lower**/
-/**@media screen and (max-width:1200px) {
+for screens max-width 1366px and lower**/
+@media screen and (max-width:1366px) {
    
     #welcome {
-    font-size: 80%;  
+    font-size: 100%;  
+}
+
+#navigation li {
+    font-size: 95%; 
+}
+
+}
+
+
+/**responsivness for the main page media query 
+for screens max-width 950 and lower**/
+@media screen and (max-width:950px) {
+   
+    #welcome {
+    font-size: 75%;  
 }
 
 #navigation li {
@@ -213,7 +229,7 @@ for screens max-width 1200px and lower**/
 }
 
 #about-us {
-    font-size: 80%;
+    font-size: 85%;
     }
 
 table, td, th{
@@ -221,61 +237,19 @@ table, td, th{
     }
     
 caption {
-    font-size: 80%;
+    font-size: 90%;
      
-}
-
-#slike {
-    font-size: 80%;
-}
-
-footer > h3, p {
-    font-size: 80%;
-}
-
-}**/
-
-
-/**responsivness for the main page media query 
-for screens max-width 1200px and lower**/
-/**@media screen and (max-width:950px) {
-   
-    #welcome {
-    font-size: 80%;  
-}
-
-#navigation li {
-    font-size: 80%;
-    
-}
-
-#about-us {
-    font-size: 80%;
-    }
-
-table, td, th{
-    font-size: 80%;
-    }
-    
-caption {
-    font-size: 80%;
-     
-}
-
-#slike {
-    font-size: 80%;
 }
 
 footer > h3, p, h2 {
     font-size: 80%;
 }
 
-
 video {
     width: 50%;
     height: auto;
 }
-}**/
+}
 
 /**responsivness for the main page media query 
 for screens max-width 752px and lower**/
@@ -299,10 +273,6 @@ table, td, th{
 caption {
     font-size: 80%;
      
-}
-
-#slike {
-    font-size: 80%;
 }
 
 footer {
