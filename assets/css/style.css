@@ -129,6 +129,7 @@ footer {
     overflow: hidden;
     position: relative;
     clear: both; 
+
  }
 
  /**social media icons styling**/
@@ -200,36 +201,121 @@ input[type=text], input[type=email], input[type=tel], input[type=submit] {
 
 /**responsivness for the main page media query 
 for screens max-width 1200px and lower**/
-@media screen and (max-width:1200px) {
+/**@media screen and (max-width:1200px) {
    
     #welcome {
-    font-size: 70%;  
+    font-size: 80%;  
 }
 
 #navigation li {
-    font-size: 75%;
+    font-size: 80%;
     
 }
 
 #about-us {
-    font-size: 75%;
+    font-size: 80%;
     }
 
 table, td, th{
-    font-size: 75%;
+    font-size: 80%;
     }
     
 caption {
-    font-size: 75%;
+    font-size: 80%;
      
 }
 
 #slike {
-    font-size: 75%;
+    font-size: 80%;
 }
 
 footer > h3, p {
+    font-size: 80%;
+}
+
+}**/
+
+
+/**responsivness for the main page media query 
+for screens max-width 1200px and lower**/
+/**@media screen and (max-width:950px) {
+   
+    #welcome {
+    font-size: 80%;  
+}
+
+#navigation li {
+    font-size: 80%;
+    
+}
+
+#about-us {
+    font-size: 80%;
+    }
+
+table, td, th{
+    font-size: 80%;
+    }
+    
+caption {
+    font-size: 80%;
+     
+}
+
+#slike {
+    font-size: 80%;
+}
+
+footer > h3, p, h2 {
+    font-size: 80%;
+}
+
+
+video {
+    width: 50%;
+    height: auto;
+}
+}**/
+
+/**responsivness for the main page media query 
+for screens max-width 752px and lower**/
+@media screen and (max-width:752px) {
+   
+    #welcome {
+    font-size: 60%;  
+}
+
+#navigation li {
+    font-size: 80%; 
+}
+
+h2, p {
     font-size: 60%;
+}
+table, td, th{
+    font-size: 80%;
+    }
+    
+caption {
+    font-size: 80%;
+     
+}
+
+#slike {
+    font-size: 80%;
+}
+
+footer {
+    font-size: 80%;
+}
+
+#address > p {
+    font-size: 90%;
+}
+
+video {
+    width: 50%;
+    height: auto;
 }
 
 }
