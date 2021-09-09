@@ -152,10 +152,12 @@ footer {
     padding: 5px;
     border-color: black;
     clear: both;
-    width: 85% nowrap;
+    width: 35%;
+    white-space: nowrap;
     margin-left: auto;
     margin-right: auto;
     font-size: 1.15em;
+    font-weight: 700;
 }
 
 caption {
