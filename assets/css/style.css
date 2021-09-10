@@ -257,27 +257,33 @@ for screens max-width 752px and lower**/
 @media screen and (max-width:752px) {
    
     #welcome {
-    font-size: 60%;  
+    font-size: 80%;  
 }
 
 #navigation li {
     font-size: 80%; 
+    margin-left: 70%;
 }
 
-h2, p {
-    font-size: 60%;
-}
-table, td, th{
+h2{
     font-size: 80%;
+}
+
+p {
+    font-size: 75%;
+}
+
+table, td, th{
+    font-size: 85%;
     }
     
 caption {
-    font-size: 80%;
+    font-size: 85%;
      
 }
 
 footer {
-    font-size: 80%;
+    font-size: 100%;
 }
 
 #address > p {
@@ -290,3 +296,4 @@ video {
 }
 
 }
+
