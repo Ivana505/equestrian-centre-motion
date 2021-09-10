@@ -25,6 +25,49 @@ Users can find all the information on this Website about the equestrian centre: 
     - Form is set up with mandatory fields and the user must fill out all the fields to be able to submit the form.
 ![image](readme/capture-contact-us-form.PNG)
 
+# User Experience
+
+## Goals
+
+Visitor goals
+
+The target audience for the Equestrian Center Motion Website:
+
+- People based mainly in Austria and EU.
+- People who love horses and would love to learn fundamentals of horseback riding.
+
+User goals are
+
+-As a user I would like:
+     - to be able to book classes online so that I do not have to fill out the contact form.
+     - to see a map of the area so that I can locate it quicker.
+     - option to pay for the classes online so that I do not have to pay on arrival.
+     - to see more Information about instructors and their experience.
+
+## Design Choices
+
+Font choices
+
+
+Icons
+
+- Social Media Icons ([Youtube](https://www.youtube.com/), [Facebook](https://www.facebook.com/), [GitHub](https://www.github.com/) and [LinkedIn](https://www.linkedin.com/feed/)) are added on the bottom center of the page where user will be able to find further Information about the Equestrian center. Social Media Accounts are not created but show that the user will be able to click on the icons and find further details about the website there in the future.
+
+## Colour scheme and styling
+
+![image](readme/project-colors.png)
+
+- Implemented palette consits of  colors: #D4B974 / #AA9374 / #000000
+
+
+## Wireframes
+![image](readme/wireframe1.png)
+![image](readme/wireframe2.png)
+![image](readme/wireframe3.png)
+![image](readme/wireframe4.png)
+
+All wireframes are created with [Balsamiq](https://balsamiq.com/) during the Scope Plane part of the design and planning process for this project.
+
 ## Testings
 
 ### Bugs
@@ -57,9 +100,6 @@ Unsolved Bugs / Unfixed bugs
   - [Pexels](https://www.pexels.com/)
       - Image by Alexander Dummer https://www.pexels.com/photo/girl-riding-black-horse-1364073/
       - 
-
-- [Game Souds](https://gamesounds.xyz/) for the game sounds.
--
 
 
 ### Content
