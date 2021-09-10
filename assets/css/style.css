@@ -193,7 +193,7 @@ input[type=text], input[type=email], input[type=tel], input[type=submit] {
 
 /**responsivness for the main page media query 
 for screens max-width 1366px and lower**/
-@media screen and (max-width:1366px) {
+/*@media screen and (max-width:1366px) {
    
     #welcome {
     font-size: 100%;  
@@ -203,11 +203,11 @@ for screens max-width 1366px and lower**/
     font-size: 95%; 
 }
 
-}
+}*/
 
 /**responsivness for the main page media query 
 for screens max-width 950 and lower**/
-@media screen and (max-width:950px) {
+/**@media screen and (max-width:950px) {
    
     #welcome {
     font-size: 75%;  
@@ -234,7 +234,7 @@ caption {
 footer > h3, p, h2 {
     font-size: 80%;
 }
-}
+}**/
 
 /**responsivness for the main page media query 
 for screens max-width 520px and lower**/
@@ -277,7 +277,8 @@ caption {
 
 footer {
     font-size: 90%;
-    position: fixed;
+    overflow: hidden;
+  
 }
 
 #address > p {
