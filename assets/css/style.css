@@ -200,27 +200,20 @@ for screens max-width 1366px and lower**/
 #navigation li {
     font-size: 95%; 
 }
-
 }*/
 
 /**responsivness for the main page media query 
 for screens max-width 950 and lower**/
-@media screen and (max-width:950px) {
+/*@media screen and (max-width:950px) {
    
     #welcome {
     font-size: 80%; 
     width: 70%; 
 }
 
-#navigation ul {
-    float: right;
-    clear: both; 
-}
-
 #navigation li {
-    float: left;
-    margin-left: 90%; 
-
+    font-size: 80%;
+    margin-left: 70%;  
 }
 
 #about-us {
@@ -235,17 +228,18 @@ caption {
     font-size: 90%;
      
 }
+/*footer {
+    overflow: hidden;
+    font-size: 90%;
+    height: 300px;
+}
 
-footer {
-    font-size: 80%;
-    position: fixed;
-}
-}
+}*/
 
 /**responsivness for the main page media query 
 for screens max-width 625px and lower**/
-@media screen and (max-width:625px) {
-   
+/*@media screen and (max-width:625px) {
+
     #welcome {
     font-size: 75%;  
     width: 100%;
@@ -286,12 +280,7 @@ caption {
     font-size: 90%;  
 }
 
-footer {
-    font-size: 90%;
-    position: fixed;
-    overflow: hidden;
-    height: 300px;
-}
+
 
 #address > p {
     font-size: 90%;
@@ -339,4 +328,12 @@ textarea {
     width: 70%;
     height: 300px;
 }
+
+   footer {
+        overflow: scroll;
+        text-align:center;
+        font-size: 90%;
+        height: 300px;
+    }
 }
+*/
