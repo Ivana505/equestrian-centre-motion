@@ -175,7 +175,7 @@ caption {
 }
 
 input[type=text], input[type=email], input[type=tel], input[type=submit] {
-    width: 50%;
+    width: 60%;
     padding: 12px 20px;
     margin: 8px 0;
     box-sizing: border-box;
@@ -184,23 +184,49 @@ input[type=text], input[type=email], input[type=tel], input[type=submit] {
 
 
   textarea {
-      width: 50%;
+      width: 60%;
       height: 300px;
   }
 
 
-/**responsivness for the main page media query 
-for screens max-width 1366px and lower**/
-/*@media screen and (max-width:1366px) {
+/*responsivness for the main page media query 
+for screens max-width 1366px and lower*/
+@media screen and (max-width:1366px) {
    
     #welcome {
     font-size: 100%;  
 }
 
 #navigation li {
-    font-size: 95%; 
+   margin-left: 70%;
 }
-}*/
+
+/**about us styling**/
+
+
+#about-us {
+
+    font-size: 1.15em;
+}
+
+    p {
+        font-size: 1em;
+    }
+
+    .category {
+        width: 50%;
+        padding: 3%;
+        margin-left: 5%;
+        font-size: 1.10em;
+        display: block;
+        clear: both;
+        margin-left: 25%;
+        
+    }
+    .category > img  {
+        width: 100%;
+    }
+}
 
 /**responsivness for the main page media query 
 for screens max-width 950 and lower**/
