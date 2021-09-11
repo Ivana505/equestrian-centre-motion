@@ -31,20 +31,21 @@ Users can find all the information on this Website about the equestrian centre: 
 
 ## Goals
 
-Visitor goals
+### Visitor goals
 
 The target audience for the Equestrian Center Motion Website:
 
 - People based mainly in Austria and EU.
 - People who love horses and would love to learn fundamentals of horseback riding.
 
-User goals are
+### User Goals
 
 As a user I would like:
- - to be able to book classes online so that I do not have to fill out the contact form.
- - to see a map of the area so that I can locate it quicker.
- - option to pay for the classes online so that I do not have to pay on arrival.
- - to see more Information about instructors and their experience.
+
+- to be able to book classes online so that I do not have to fill out the contact form.
+- to see a map of the area so that I can locate it quicker.
+- option to pay for the classes online so that I do not have to pay on arrival.
+- to see more Information about instructors and their experience.
 
 ## Design Choices
 
@@ -62,9 +63,9 @@ Icons
 - Social Media Icons [Facebook](https://www.facebook.com/), [Instagram](https://www.ginstagram.com/) and [Pinterest](https://www.pinterest.ie/)) are added on the bottom center of the page where user will be able to find further Information about the Equestrian center. Social Media Accounts are not created but show that the user will be able to click on the icons and find further details about the website there in the future.
 - [Fontawesome](https://fontawesome.com/) was used to add social media icons.
 
-## Colour scheme and styling
+## Color scheme and styling
 
-I have decided to use 4 colours in the project: 
+I have decided to use 4 colors in the project: 
  - light french beige #BFA674 for the body of the page
  - ecru #D4B974 for the background in the gallery page
  - grullo #AA9374 for the footer
@@ -77,34 +78,43 @@ I have decided to use 4 colours in the project:
 All wireframes are created with [Balsamiq](https://balsamiq.com/) during the Scope Plane part of the design and planning process for this project.
 
 Landing page with about us section
-![image](readme/wireframe1.png)
+![wireframe1](readme/wireframe1.png)
 Instructors page
-![image](readme/wireframe2.png)
+![wireframe2](readme/wireframe2.png)
 Gallery
-![image](readme/wireframe3.png)
+![wireframe3](readme/wireframe3.png)
 Contact us page
-![image](readme/wireframe4.png)
+![wireframe4](readme/wireframe4.png)
 
 ## Testings
 
 ### Bugs
+
 #### Solved
 
-Unsolved Bugs / Unfixed bugs
+#### Unsolved bugs
+During the regular check up of the Webpage I have noticed favicon.com error. 
+When investigating with our Slack community I have tried to fix the issue by adding favicon.ico to my website and adding link href (<link href="./readme/favicon.ico" rel="icon" type="image/x-icon">)to head of html but it did not fix it.
+I have also tried to follow reccommendations from [Github](https://github.com/) Community [here](https://github.community/t/i-have-no-idea-what-the-interest-cohort-is/179780/8) but nothing seem to fix this bug.
+![unsolved bug](readme/unsolved-bug.png)
 
-# Languages used
-- [HTML5](https://en.wikipedia.org/wiki/HTML5)
-- [CSS3](https://en.wikipedia.org/wiki/CSS)
-- Github
--  Git
-- 
 
-### Validator testing
+### Validator testing and browser compatibility
 - I have tested HTML5 code on - [HTML5](https://validator.w3.org/) 
 - I have tested CSS3 code on  - [HTML5](https://jigsaw.w3.org/css-validator/#validate_by_uri) 
 
 - Accessibility 
-      - I have confirmed that...
+      - I have confirmed that the Website is accessible by inspecting it in Lighthouse on the [Google Chrome](https://www.google.com/) Dev tools.
+    
+Result for desktop 
+ - Performance for the desktop version is great as it is over 90% for each category.
+
+![desktop](readme/performance-desktop.png)<br>
+Result for mobile devices
+- Performance for mobile devices can be improved by placing smaller images and changing the layout.
+
+![mobile](readme/performance-mobile-devices.png)
+
 
 ## Deployment
 
@@ -121,10 +131,18 @@ The live site can be previewed [here](https://ivana505.github.io/equestrian-cent
 
 In order to make a local copy of this repository, you can type the following into your IDE Terminal:
 
-- `git clone https://github.com/Ivana505/equestrian-centre-motion.git`
+- `git clone https://github.com/Ivana505/equestrian-centre-motion.git` 
 
 Alternatively, if using Gitpod, you can [click here](https://gitpod.io/#https://github.com/Ivana505/equestrian-centre-motion) to create a new workspace under your account.
   
+  # Languages and stechnologies used
+- [HTML5](https://en.wikipedia.org/wiki/HTML5)
+- [CSS3](https://en.wikipedia.org/wiki/CSS)
+- [Github](https://github.com/)
+- [Git](https://git-scm.com/)
+- [TinyPNG](https://tinypng.com/)
+- [FancyBox](https://fancyapps.com/docs/ui/fancybox/)
+
 ## Credits
 
 - Image source:
@@ -132,8 +150,18 @@ Alternatively, if using Gitpod, you can [click here](https://gitpod.io/#https://
       - [Image](https://www.pexels.com/photo/girl-riding-black-horse-1364073/) by Alexander Dummer 
       - 
 
+ [Favicon](https://www.favicon.cc/)
+ [coolors](https://coolors.co/)
+ [Fontawesome](https://fontawesome.com/)
+ [TinyPNG](https://tinypng.com/)
+ [Favicon](https://www.favicon.cc/)
+ [Favicon](https://www.favicon.cc/)
+ [Favicon](https://www.favicon.cc/)
+ [Favicon](https://www.favicon.cc/)
 
 ### Content
-### Media
+ - Content was created intentionally for the purpose of this project and this Website. Credits go to the creater of the Website.
+
+
 
   
