@@ -176,6 +176,8 @@ Alternatively, if using Gitpod, you can [click here](https://gitpod.io/#https://
   - [Developer Mozilla](https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_Properties_Reference)
   - [Stack Overflow](https://stackoverflow.com/)
   - [Favicon](https://www.favicon.cc/)
+  - [Balsamiq](https://balsamiq.com/)
+  - [Google fonts](https://fonts.google.com/)
 
   I want to say thank you to my Mentor Tim, all the Slack Community ( especially David Bowers for reviewing my page ).
 
