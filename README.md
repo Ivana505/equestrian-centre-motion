@@ -1,6 +1,7 @@
 # Equestrian Centre Motion
 The Equestrian Centre Motion is a website for equestrian lovers located in Austria.<br>
 Users can find all the information on this Website about the equestrian centre: About the centre, working hours, contact Information and contact us form.
+You can access the website [here](https://ivana505.github.io/equestrian-centre-motion/)
 ![landing page](readme/capture-landing-page.png)
 
 
@@ -42,10 +43,10 @@ The target audience for the Equestrian Center Motion Website:
 
 As a user I would like:
 
-- to be able to book classes online so that I do not have to fill out the contact form.
-- to see a map of the area so that I can locate it quicker.
-- option to pay for the classes online so that I do not have to pay on arrival.
-- to see more Information about instructors and their experience.
+- To be able to book classes online so that I do not have to fill out the contact form.
+- To see a map of the area so that I can locate it quicker.
+- Option to pay for the classes online so that I do not have to pay on arrival.
+- To see more Information about instructors and their experience.
 
 ## Design Choices
 
@@ -60,7 +61,7 @@ I have decided to use [Google Fonts](https://fonts.google.com/).
 
 Icons
 
-- Social Media Icons [Facebook](https://www.facebook.com/), [Instagram](https://www.ginstagram.com/) and [Pinterest](https://www.pinterest.ie/)) are added on the bottom center of the page where user will be able to find further Information about the Equestrian center. Social Media Accounts are not created but show that the user will be able to click on the icons and find further details about the website there in the future.
+- Social Media Icons [Facebook](https://www.facebook.com/), [Instagram](https://www.instagram.com/) and [Pinterest](https://www.pinterest.ie/)) are added on the bottom center of the page where user will be able to find further Information about the Equestrian center. Social Media Accounts are not created but show that the user will be able to click on the icons and find further details about the website there in the future.
 - [Fontawesome](https://fontawesome.com/) was used to add social media icons.
 
 ## Color scheme and styling
@@ -71,8 +72,6 @@ I have decided to use 4 colors in the project:
  - grullo #AA9374 for the footer
  - black #000000 for text
 ![image](readme/project-colors.png)
-
-- Implemented palette consits of  colors: #D4B974 / #AA9374 / #000000
 
 ## Wireframes
 All wireframes are created with [Balsamiq](https://balsamiq.com/) during the Scope Plane part of the design and planning process for this project.
