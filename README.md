@@ -88,20 +88,26 @@ Contact us page
 
 ## Testings
 
-### Bugs
-
-#### Solved
-
-#### Unsolved bugs
-During the regular check up of the Webpage I have noticed favicon.com error. 
-When investigating with our Slack community I have tried to fix the issue by adding favicon.ico to my website and adding link href (<link href="./readme/favicon.ico" rel="icon" type="image/x-icon">)to head of html but it did not fix it.
-I have also tried to follow reccommendations from [Github](https://github.com/) Community [here](https://github.community/t/i-have-no-idea-what-the-interest-cohort-is/179780/8) but nothing seem to fix this bug.
-![unsolved bug](readme/unsolved-bug.png)
-
-
 ### Validator testing and browser compatibility
-- I have tested HTML5 code on - [HTML5](https://validator.w3.org/) 
-- I have tested CSS3 code on  - [HTML5](https://jigsaw.w3.org/css-validator/#validate_by_uri) 
+- I have tested HTML5 code on - [HTML5 validator](https://validator.w3.org/), warnings are left as no heading on section, but no heading required.
+![validation1](readme/validation-index.png)
+![validation2](readme/validation-instructors.png)
+![validation3](readme/validation-gallery.png)
+![validation4](readme/validation-contact.png)
+- I have tested CSS3 code on  - [Jigsaw validator](https://jigsaw.w3.org/css-validator/#validate_by_uri) and no errors have been found
+![validation5](readme/validation-css.png)
+
+### Browser compatibility
+- I can confirm that I have tested website on four different Web Browsers
+
+Landing page [Google Chrome](https://www.google.com/chrome/?brand=FHFK&gclid=EAIaIQobChMItpXo3cj28gIVNgiICR0PYAlLEAAYASAAEgJ2bPD_BwE&gclsrc=aw.ds)
+![landing page google chrome](readme/landing-page-google-chrome.png)
+Instructors page [MS Edge](https://www.microsoft.com/en-us/edge)
+![instructors page ms edge](readme/instructors-page-msedge.jpg)
+Gallery page [Mozzilla Firefox](https://www.mozilla.org/en-US/firefox/new/)
+![gallery page mozilla firefox](readme/gallery-page-mozilla-firefox.png)
+Contact us page [Brave](https://brave.com/)
+![contact us page Brave](readme/contact-us-page-brave.png)
 
 - Accessibility 
       - I have confirmed that the Website is accessible by inspecting it in Lighthouse on the [Google Chrome](https://www.google.com/) Dev tools.
@@ -114,6 +120,16 @@ Result for mobile devices
 - Performance for mobile devices can be improved by placing smaller images and changing the layout.
 
 ![mobile](readme/performance-mobile-devices.png)
+
+### Bugs
+
+#### Solved
+
+#### Unsolved bugs
+During the regular check up of the Webpage I have noticed favicon.com error. 
+When investigating with our Slack community I have tried to fix the issue by adding favicon.ico to my website and adding link href (<link href="./readme/favicon.ico" rel="icon" type="image/x-icon">)to head of html but it did not fix it.
+I have also tried to follow reccommendations from [Github](https://github.com/) Community [here](https://github.community/t/i-have-no-idea-what-the-interest-cohort-is/179780/8) but nothing seem to fix this bug.
+![unsolved bug](readme/unsolved-bug.png)
 
 
 ## Deployment
