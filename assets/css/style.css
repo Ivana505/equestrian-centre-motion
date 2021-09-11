@@ -155,8 +155,7 @@ footer {
 }
 
 caption {
-    font-size: 1.25em;
-    
+    font-size: 1.25em; 
 }
 
 #copyright {
@@ -182,14 +181,12 @@ input[type=text], input[type=email], input[type=tel], input[type=submit] {
     border-color: black;
   }
 
-
   textarea {
       width: 60%;
       height: 300px;
   }
 
-
-/*responsivness for the main page media query 
+/*responsiveness for the main page media query 
 for screens max-width 1366px and lower*/
 @media screen and (max-width:1366px) {
    
@@ -202,14 +199,12 @@ for screens max-width 1366px and lower*/
 }
 
 /**about us styling**/
-
-
 #about-us {
 
     font-size: 1.15em;
 }
 
-    p {
+ p {
         font-size: 1em;
     }
 
@@ -223,27 +218,26 @@ for screens max-width 1366px and lower*/
         margin-left: 25%;
         
     }
-    .category > img  {
+.category > img  {
         width: 100%;
     }
 }
 
 /**responsivness for the main page media query 
 for screens max-width 950 and lower**/
-/*@media screen and (max-width:950px) {
+@media screen and (max-width:950px) {
    
     #welcome {
     font-size: 80%; 
-    width: 70%; 
 }
 
 #navigation li {
     font-size: 80%;
-    margin-left: 70%;  
+    margin-left: 80%;  
 }
 
 #about-us {
-    font-size: 85%;
+    font-size: 1em;
     }
 
 table, td, th{
@@ -254,24 +248,37 @@ caption {
     font-size: 90%;
      
 }
-/*footer {
-    overflow: hidden;
+ footer {
     font-size: 90%;
-    height: 300px;
+    
 }
 
-}*/
+input[type=text], input[type=email], input[type=tel], input[type=submit] {
+    width: 80%;
+    padding: 12px 20px;
+    margin: 8px 0;
+  }
 
-/**responsivness for the main page media query 
-for screens max-width 625px and lower**/
-/*@media screen and (max-width:625px) {
+  textarea {
+      width: 80%;
+      height: 300px;
+  }
+
+  #container {
+    width: 80%;
+    height: 50%;
+}
+}
+
+/*responsivness for the main page media query 
+for screens max-width 625px and lower*/
+@media screen and (max-width:625px) {
 
     #welcome {
-    font-size: 75%;  
-    width: 100%;
+    font-size: 80%;  
 }
 
-#navigation li {
+  #navigation li {
     font-size: 80%;
     margin-left: 70%;  
 }
@@ -282,17 +289,11 @@ h2{
 
 p {
     font-size: 75%;
-}
-
-#hero-image {
-  margin-left: 5%;
-}
+}*/
 
 #about-us {
     text-align: center;
-    font-weight: 700;
     font-size: 1em;
-    padding: 15px 0px 15px;
     margin: 0 auto;
     width: 80%;
     }
@@ -306,28 +307,10 @@ caption {
     font-size: 90%;  
 }
 
-
-
-#address > p {
-    font-size: 90%;
-}
-
-.category {
-    width: 100%;
-    clear: both;
-    padding: 3%;
-    font-size: 1.10em;
-    text-align: center;
-}
-
 .category img {
     width: 55%;
     margin-right: 50px;  
-}
-
-.category > p {
-    width: 80%;
-}
+}*/
 
 #gallery img {
    width: 65%;
@@ -335,10 +318,6 @@ caption {
    display: block;
    text-align:center;
    margin-left: 15%;
-}
-
-#gallery {
-    background-color:#BFA674;
 }
 
 #container {
@@ -356,10 +335,7 @@ textarea {
 }
 
    footer {
-        overflow: scroll;
-        text-align:center;
         font-size: 90%;
-        height: 300px;
-    }
+    
 }
-*/
+}
