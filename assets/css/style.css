@@ -1,341 +1,374 @@
 @import url('https://fonts.googleapis.com/css2?family=Montserrat&family=Nobile:ital,wght@1,500&display=swap');
 
-/**select all elements to 0 and border to none**/
+/*select all elements to 0 and border to none*/
+
 * {
-    margin: 0;
-    padding: 0;
-    border: none;
+	margin: 0;
+	padding: 0;
+	border: none;
 }
 
-/**body style**/
+
+/*style for body background and font*/
+
 body {
-    font-family: 'Nobile', 'Verdana', sans-serif;
-    background-color:#d4b974;
+	font-family: 'Nobile', 'Verdana', sans-serif;
+	background-color: #d4b974;
 }
 
-p, h2, h3 {
-    font-family: 'Montserrat', 'Verdana', sans-serif;
-    clear: both;
-    margin-left: 20px;
+
+/*style and margin for paragraphs and heading2, heading3*/
+
+p,
+h2,
+h3 {
+	font-family: 'Montserrat', 'Verdana', sans-serif;
+	clear: both;
+	margin-left: 20px;
 }
+
+
+/*font size for paragraphs*/
 
 p {
-    font-size: 1.15em;
+	font-size: 1.15em;
 }
 
-/**style for the main heading**/
+
+/*style for the main heading*/
+
 #welcome {
-    color: black;
-    font-size: 1.8em;  
-    text-align: center;
-    padding: 10px 0px 10px;
+	color: black;
+	font-size: 1.8em;
+	text-align: center;
+	padding: 10px 0px 10px;
 }
 
-/**navigation style**/
+
+/*navigation style*/
+
 #navigation ul {
-    float: right;
-    clear: both;
+	float: right;
+	clear: both;
 }
 
 #navigation li {
-    list-style-type: none;
-    float: left;
-    font-size: 1.7em;
-    font-weight: 700;
-    padding: 15px;
-    margin: 40px 0 0 85%;
-   background-color: #d4b974;
-   border-radius: 0%;
-   border: 2px solid black;
+	list-style-type: none;
+	float: left;
+	font-size: 1.7em;
+	font-weight: 700;
+	padding: 15px;
+	margin: 40px 0 0 85%;
+	background-color: #d4b974;
+	border-radius: 0%;
+	border: 2px solid black;
 }
 
-/**font awesome styling for social media icons**/
+
+/*font awesome styling for social media icons*/
+
 i {
-    padding-right: 15px;
-    color: black;
+	padding-right: 15px;
+	color: black;
 }
 
- /**link style**/
+
+/*style for all link selectors*/
+
 a:link {
-    color: black;
-    text-decoration: none;
+	color: black;
+	text-decoration: none;
 }
-  
+
 a:visited {
-    color: black;
-    text-decoration: none;
+	color: black;
+	text-decoration: none;
 }
-  
+
 a:hover {
-    color: black;
-    text-decoration: underline;
+	color: black;
+	text-decoration: underline;
 }
-  
+
 a:active {
-    color: black;
-    text-decoration: none;
-} 
+	color: black;
+	text-decoration: none;
+}
 
-/**hero-image styling**/
+
+/*hero-image styling to cover the image throughout the whole width*/
+
 #hero-image {
-    height: 500px;
-    width: 100%;
-    background: url('../images/hero-image.jpg') no-repeat center center;
-    background-size: cover;
+	height: 500px;
+	width: 100%;
+	background: url('../images/hero-image.jpg') no-repeat center center;
+	background-size: cover;
 }
 
-/**about us styling**/
+
+/*about us styling*/
+
 #about-us {
-text-align: center;
-font-weight: 700;
-font-size: 1.25em;
-padding: 15px 0px 15px;
-width: 50%;
-margin-left: 25%;
+	text-align: center;
+	font-weight: 700;
+	font-size: 1.25em;
+	padding: 15px 0px 15px;
+	width: 50%;
+	margin-left: 25%;
 }
+
+
+/*image and image category styling*/
 
 .category {
-    width: 33%;
-    float: left;
-    padding: 3%;
-    margin-left: 7%;
-    font-size: 1.10em;
+	width: 33%;
+	float: left;
+	padding: 3%;
+	margin-left: 7%;
+	font-size: 1.10em;
 }
 
-.category > img  {
-    width: 100%;
+.category>img {
+	width: 100%;
 }
+
+
+/*span for the anchor tag*/
 
 span {
-    font-weight: bold;
+	font-weight: bold;
 }
 
+
+/*size of the image gallery and gallery style*/
+
 #gallery img {
-    width: 20%;
-   padding: 5px;
+	width: 20%;
+	padding: 5px;
 }
 
 #gallery {
-    background-color: #BFA674;
-    text-align: center;
+	background-color: #BFA674;
+	text-align: center;
 }
+
+
+/*footer dimensions and background color added*/
 
 footer {
-    height: 300px;
-    width: 100%;
-    background-color: #aa9374;
-    overflow: hidden;
- }
+	height: 300px;
+	width: 100%;
+	background-color: #aa9374;
+	overflow: hidden;
+}
 
- /**social media icons styling**/
+
+/**social media icons styling**/
+
 .social-media {
-    text-align: center;
-    list-style: none;
-    font-size: 200%;
-}
-.social-media > li {
-    display: inline;
-   padding: 5%;
+	text-align: center;
+	list-style: none;
+	font-size: 200%;
 }
 
- table, td, th{
-    border: 3px solid black;
-    vertical-align: center;
-    text-align: center;
-    border-spacing: 8px;
-    padding: 5px;
-    border-color: black;
-    clear: both;
-    width: 35%;
-    white-space: nowrap;
-    margin-left: auto;
-    margin-right: auto;
-    font-size: 1.15em;
-    font-weight: 700;
+.social-media>li {
+	display: inline;
+	padding: 5%;
+}
+
+
+/*table style to keep it in the middle of the page and caption font size*/
+
+table,
+td,
+th {
+	border: 3px solid black;
+	vertical-align: center;
+	text-align: center;
+	border-spacing: 8px;
+	padding: 5px;
+	border-color: black;
+	clear: both;
+	width: 35%;
+	white-space: nowrap;
+	margin-left: auto;
+	margin-right: auto;
+	font-size: 1.15em;
+	font-weight: 700;
 }
 
 caption {
-    font-size: 1.25em; 
+	font-size: 1.25em;
 }
+
+
+/*style to center copyright sign in the footer*/
 
 #copyright {
-    text-align: center;
+	text-align: center;
 }
+
+
+/*cointainer style which holds the form*/
 
 #container {
-    background-color: #aa9374;
-    width: 50%;
-    margin: 0 auto;
-    text-align: center;
-    border: 1px solid black;
-    margin-top: 10px;
-    margin-bottom: 10px;
-    color: black;
+	background-color: #aa9374;
+	width: 50%;
+	margin: 0 auto;
+	text-align: center;
+	border: 1px solid black;
+	margin-top: 10px;
+	margin-bottom: 10px;
+	color: black;
 }
 
-input[type=text], input[type=email], input[type=tel], input[type=submit] {
-    width: 60%;
-    padding: 12px 20px;
-    margin: 8px 0;
-    box-sizing: border-box;
-    border-color: black;
-  }
 
-  textarea {
-      width: 60%;
-      height: 300px;
-  }
+/*input type and textarea style*/
 
-/*responsiveness for the main page media query 
-for screens max-width 1366px and lower*/
-@media screen and (max-width:1366px) {
-   
-    #welcome {
-    font-size: 100%;  
-}
-
-#navigation li {
-   margin-left: 70%;
-}
-
-/**about us styling**/
-#about-us {
-
-    font-size: 1.15em;
-}
-
- p {
-        font-size: 1em;
-    }
-
-    .category {
-        width: 50%;
-        padding: 3%;
-        margin-left: 5%;
-        font-size: 1.10em;
-        display: block;
-        clear: both;
-        margin-left: 25%;
-        
-    }
-.category > img  {
-        width: 100%;
-    }
-}
-
-/**responsivness for the main page media query 
-for screens max-width 950 and lower**/
-@media screen and (max-width:950px) {
-   
-    #welcome {
-    font-size: 80%; 
-}
-
-#navigation li {
-    font-size: 80%;
-    margin-left: 80%;  
-}
-
-#about-us {
-    font-size: 1em;
-    }
-
-table, td, th{
-    font-size: 80%;
-    }
-    
-caption {
-    font-size: 90%;
-     
-}
- footer {
-    font-size: 90%;
-    
-}
-
-input[type=text], input[type=email], input[type=tel], input[type=submit] {
-    width: 80%;
-    padding: 12px 20px;
-    margin: 8px 0;
-  }
-
-  textarea {
-      width: 80%;
-      height: 300px;
-  }
-
-  #container {
-    width: 80%;
-    height: 50%;
-}
-}
-
-/*responsivness for the main page media query 
-for screens max-width 625px and lower*/
-@media screen and (max-width:625px) {
-
-    #welcome {
-    font-size: 80%;  
-}
-
-  #navigation li {
-    font-size: 80%;
-    margin-left: 70%;  
-}
-
-h2{
-    font-size: 90%;
-}
-
-p {
-    font-size: 75%;
-}*/
-
-#about-us {
-    text-align: center;
-    font-size: 1em;
-    margin: 0 auto;
-    width: 80%;
-    }
-
-table, td, th{
-    font-size: 80%;
-    margin-right: 10%;
-}
-
-caption {
-    font-size: 90%;  
-}
-
-.category img {
-    width: 55%;
-    margin-right: 50px;  
-}*/
-
-#gallery img {
-   width: 65%;
-   padding: 5px;
-   display: block;
-   text-align:center;
-   margin-left: 15%;
-}
-
-#container {
-    width: 80%;
-    height: 50%;
-}
-
-input[type=text], input[type=email], input[type=tel], input[type=submit] {
-    width: 70%;
+input[type=text],
+input[type=email],
+input[type=tel],
+input[type=submit] {
+	width: 60%;
+	padding: 12px 20px;
+	margin: 8px 0;
+	box-sizing: border-box;
+	border-color: black;
 }
 
 textarea {
-    width: 70%;
-    height: 300px;
+	width: 60%;
+	height: 300px;
 }
 
-   footer {
-        font-size: 90%;
-    
+
+/*responsiveness for the main page media query 
+for screens max-width 1366px and lower*/
+
+@media screen and (max-width:1366px) {
+	#welcome {
+		font-size: 100%;
+	}
+	#navigation li {
+		margin-left: 70%;
+	}
+	#about-us {
+		font-size: 1.15em;
+	}
+	p {
+		font-size: 1em;
+	}
+	.category {
+		width: 50%;
+		padding: 3%;
+		margin-left: 5%;
+		font-size: 1.10em;
+		display: block;
+		clear: both;
+		margin-left: 25%;
+	}
+	.category>img {
+		width: 100%;
+	}
 }
+
+
+/**responsivness for the main page media query 
+for screens max-width 950 and lower**/
+
+@media screen and (max-width:950px) {
+	#welcome {
+		font-size: 80%;
+	}
+	#navigation li {
+		font-size: 80%;
+		margin-left: 80%;
+	}
+	#about-us {
+		font-size: 1em;
+	}
+	table,
+	td,
+	th {
+		font-size: 80%;
+	}
+	caption {
+		font-size: 90%;
+	}
+	footer {
+		font-size: 90%;
+	}
+	input[type=text],
+	input[type=email],
+	input[type=tel],
+	input[type=submit] {
+		width: 80%;
+		padding: 12px 20px;
+		margin: 8px 0;
+	}
+	textarea {
+		width: 80%;
+		height: 300px;
+	}
+	#container {
+		width: 80%;
+		height: 50%;
+	}
+}
+
+
+/*responsivness for the main page media query 
+for screens max-width 625px and lower*/
+
+@media screen and (max-width:625px) {
+	#welcome {
+		font-size: 80%;
+	}
+	#navigation li {
+		font-size: 90%;
+		margin-left: 70%;
+	}
+	h2 {
+		font-size: 90%;
+	}
+	p {
+		font-size: 70%;
+	}
+	#about-us {
+		text-align: center;
+		font-size: 1em;
+		margin: 0 auto;
+		width: 80%;
+	}
+	caption {
+		font-size: 90%;
+	}
+	.category img {
+		width: 100%;
+		margin-right: 50px;
+	}
+	#gallery img {
+		width: 65%;
+		padding: 5px;
+		display: block;
+		text-align: center;
+		margin-left: 15%;
+	}
+	#container {
+		width: 80%;
+		height: 50%;
+	}
+	input[type=text],
+	input[type=email],
+	input[type=tel],
+	input[type=submit] {
+		width: 70%;
+	}
+	textarea {
+		width: 70%;
+		height: 300px;
+	}
+	footer {
+		font-size: 90%;
+	}
 }
