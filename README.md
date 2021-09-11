@@ -93,11 +93,11 @@ Contact us page
 ![validation2](readme/validation-instructors.png)
 ![validation3](readme/validation-gallery.png)
 ![validation4](readme/validation-contact.png)
-- I have tested CSS3 code on  - [Jigsaw validator](https://jigsaw.w3.org/css-validator/#validate_by_uri) and no errors have been found
+- I have tested CSS3 code on  - [Jigsaw validator](https://jigsaw.w3.org/css-validator/#validate_by_uri) and no errors have been found.
 ![validation5](readme/validation-css.png)
 
 ### Browser compatibility
-- I can confirm that I have tested website on four different Web Browsers
+- I can confirm that I have tested website on four different Web Browsers and that the page if compatible:
 
 Landing page [Google Chrome](https://www.google.com/chrome/?brand=FHFK&gclid=EAIaIQobChMItpXo3cj28gIVNgiICR0PYAlLEAAYASAAEgJ2bPD_BwE&gclsrc=aw.ds)
 ![landing page google chrome](readme/landing-page-google-chrome.png)
@@ -123,11 +123,12 @@ Result for mobile devices
 ### Bugs
 
 #### Solved
+- During the process of creating the website there were bugs where the page would crash due to incorrect path. Paths are corrected and images are displaying.
 
 #### Unsolved bugs
 During the regular check up of the Webpage I have noticed favicon.com error. 
 When investigating with our Slack community I have tried to fix the issue by adding favicon.ico to my website and adding link href (<link href="./readme/favicon.ico" rel="icon" type="image/x-icon">)to head of html but it did not fix it.
-I have also tried to follow reccommendations from [Github](https://github.com/) Community [here](https://github.community/t/i-have-no-idea-what-the-interest-cohort-is/179780/8) but nothing seem to fix this bug.
+I have also tried to follow reccommendations from [Github](https://github.com/) Community [here](https://github.community/t/i-have-no-idea-what-the-interest-cohort-is/179780/8) but nothing seem to fix this bug.<br>
 ![unsolved bug](readme/unsolved-bug.png)
 
 
@@ -158,21 +159,25 @@ Alternatively, if using Gitpod, you can [click here](https://gitpod.io/#https://
 - [TinyPNG](https://tinypng.com/)
 - [FancyBox](https://fancyapps.com/docs/ui/fancybox/)
 
-## Credits
+## Credits and Acknowledgements
 
 - Image source:
   - [Pexels](https://www.pexels.com/)
-      - [Image](https://www.pexels.com/photo/girl-riding-black-horse-1364073/) by Alexander Dummer 
-      - 
+  - [Pixabay](https://pixabay.com/)
+  - [Unsplash](https://unsplash.com/)
+  - [Pxhere](pxhere.com)
 
- [Favicon](https://www.favicon.cc/)
- [coolors](https://coolors.co/)
- [Fontawesome](https://fontawesome.com/)
- [TinyPNG](https://tinypng.com/)
- [Favicon](https://www.favicon.cc/)
- [Favicon](https://www.favicon.cc/)
- [Favicon](https://www.favicon.cc/)
- [Favicon](https://www.favicon.cc/)
+  Other sources
+  - [Favicon](https://www.favicon.cc/)
+  - [coolors](https://coolors.co/)
+  - [Fontawesome](https://fontawesome.com/)
+  - [TinyPNG](https://tinypng.com/)
+  - [W3 Schools](https://www.w3schools.com/tags/tag_a.asp)
+  - [Developer Mozilla](https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_Properties_Reference)
+  - [Stack Overflow](https://stackoverflow.com/)
+  - [Favicon](https://www.favicon.cc/)
+
+  I want to say thank you to my Mentor Tim, all the Slack Community ( especially David Bowers for reviewing my page ).
 
 ### Content
  - Content was created intentionally for the purpose of this project and this Website. Credits go to the creater of the Website.
